@@ -9,7 +9,7 @@ module.exports = {
 
         // Paths
         assetsSubDirectory: 'static',
-        assetsPublicPath: '/',
+        assetsPublicPath: './',
         proxyTable: {
             '/api': {
                 target: 'https://way.jd.com/', // 请换成你的地址
